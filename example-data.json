@@ -1,0 +1,49 @@
+{
+  "videoPath": "example.mp4",
+  "subtitles": [
+    {
+      "id": 1,
+      "startTime": 0,
+      "endTime": 2,
+      "text": "バンチョやるじゃん。",
+      "volumeLevel": 0.4,
+      "style": "normal"
+    },
+    {
+      "id": 2,
+      "startTime": 2,
+      "endTime": 4,
+      "text": "東大生っぽいね。",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 3,
+      "startTime": 4,
+      "endTime": 6,
+      "text": "東大生ですから、",
+      "volumeLevel": 0.45,
+      "style": "normal"
+    },
+    {
+      "id": 4,
+      "startTime": 6,
+      "endTime": 7.5,
+      "text": "一応。",
+      "volumeLevel": 0.85,
+      "style": "loud"
+    },
+    {
+      "id": 5,
+      "startTime": 7.5,
+      "endTime": 9,
+      "text": "すごいです！",
+      "volumeLevel": 0.9,
+      "style": "loud"
+    }
+  ],
+  "audioAnalysis": {
+    "threshold": 0.75,
+    "percentile": 75
+  }
+}

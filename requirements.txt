@@ -1,0 +1,10 @@
+# Python requirements for remotion-telop-system
+
+# OpenAI API for Whisper transcription
+openai>=1.0.0
+
+# Japanese morphological analysis for natural text splitting
+janome>=0.5.0
+
+# Numerical computing for audio analysis
+numpy>=1.24.0
