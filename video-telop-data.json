@@ -2,10 +2,18 @@
   "videoPath": "/mnt/c/Users/bestg/Videos/784013162.166093_cut.mp4",
   "subtitles": [
     {
-      "id": 1,
+      "id": "1-1",
       "startTime": 0.0,
+      "endTime": 1.0,
+      "text": "バンチョやるじゃん。",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "1-2",
+      "startTime": 1.0,
       "endTime": 2.0,
-      "text": "バンチョやるじゃん。東大生っぽいね。",
+      "text": "東大生っぽいね。",
       "volumeLevel": 0.5,
       "style": "normal"
     },
@@ -18,18 +26,34 @@
       "style": "normal"
     },
     {
-      "id": 3,
+      "id": "3-1",
       "startTime": 5.0,
-      "endTime": 8.0,
-      "text": "一応、バンチョが今やっているのは何ですか?",
+      "endTime": 6.5,
+      "text": "一応、バンチョが今やっているの",
       "volumeLevel": 0.5,
       "style": "normal"
     },
     {
-      "id": 4,
+      "id": "3-2",
+      "startTime": 6.5,
+      "endTime": 8.0,
+      "text": "は何ですか?",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "4-1",
       "startTime": 9.0,
+      "endTime": 10.5,
+      "text": "自分でクロードコードで",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "4-2",
+      "startTime": 10.5,
       "endTime": 12.0,
-      "text": "自分でクロードコードで動画編集をしています。",
+      "text": "動画編集をしています。",
       "volumeLevel": 0.5,
       "style": "normal"
     },
@@ -50,26 +74,50 @@
       "style": "normal"
     },
     {
-      "id": 7,
+      "id": "7-1",
       "startTime": 16.0,
+      "endTime": 16.5,
+      "text": "AIが動画編集してるってことで",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "7-2",
+      "startTime": 16.5,
       "endTime": 17.0,
-      "text": "AIが動画編集してるってことでしょ?",
+      "text": "しょ?",
       "volumeLevel": 0.5,
       "style": "normal"
     },
     {
-      "id": 8,
+      "id": "8-1",
       "startTime": 17.0,
-      "endTime": 20.0,
-      "text": "そうです。これクロードコードっていう。",
+      "endTime": 18.5,
+      "text": "そうです。",
       "volumeLevel": 0.5,
       "style": "normal"
     },
     {
-      "id": 9,
+      "id": "8-2",
+      "startTime": 18.5,
+      "endTime": 20.0,
+      "text": "これクロードコードっていう。",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "9-1",
       "startTime": 19.0,
+      "endTime": 20.0,
+      "text": "先生、2回目なんだけど、",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "9-2",
+      "startTime": 20.0,
       "endTime": 21.0,
-      "text": "先生、2回目なんだけど、どういうことなの?",
+      "text": "どういうことなの?",
       "volumeLevel": 0.5,
       "style": "normal"
     },
@@ -106,18 +154,34 @@
       "style": "normal"
     },
     {
-      "id": 14,
+      "id": "14-1",
       "startTime": 26.0,
-      "endTime": 31.0,
-      "text": "佐子くんがXであげてたAI編集を",
+      "endTime": 28.5,
+      "text": "佐子くんがXで",
       "volumeLevel": 0.5,
       "style": "normal"
     },
     {
-      "id": 15,
+      "id": "14-2",
+      "startTime": 28.5,
+      "endTime": 31.0,
+      "text": "あげてたAI編集を",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "15-1",
       "startTime": 31.0,
+      "endTime": 32.5,
+      "text": "自分で勉強してできるように",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "15-2",
+      "startTime": 32.5,
       "endTime": 34.0,
-      "text": "自分で勉強してできるようにしたと。",
+      "text": "したと。",
       "volumeLevel": 0.5,
       "style": "normal"
     },
@@ -138,18 +202,34 @@
       "style": "normal"
     },
     {
-      "id": 18,
+      "id": "18-1",
       "startTime": 40.0,
-      "endTime": 42.0,
-      "text": "でも確かに動画編集はこれで変わるね。",
+      "endTime": 41.0,
+      "text": "でも確かに動画編集はこれで",
       "volumeLevel": 0.5,
       "style": "normal"
     },
     {
-      "id": 19,
+      "id": "18-2",
+      "startTime": 41.0,
+      "endTime": 42.0,
+      "text": "変わるね。",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "19-1",
       "startTime": 44.0,
+      "endTime": 45.0,
+      "text": "単価がちょっとどれくらいなのか",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "19-2",
+      "startTime": 45.0,
       "endTime": 46.0,
-      "text": "単価がちょっとどれくらいなのかわからないですけど",
+      "text": "わからないですけど",
       "volumeLevel": 0.5,
       "style": "normal"
     },
@@ -202,10 +282,18 @@
       "style": "normal"
     },
     {
-      "id": 26,
+      "id": "26-1",
       "startTime": 59.0,
+      "endTime": 60.5,
+      "text": "じゃあ何かあったら番長に",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": "26-2",
+      "startTime": 60.5,
       "endTime": 62.0,
-      "text": "じゃあ何かあったら番長に依頼してください。",
+      "text": "依頼してください。",
       "volumeLevel": 0.5,
       "style": "normal"
     },

@@ -45,8 +45,33 @@ def parse_srt(srt_path):
     return subtitles
 
 
+def split_long_text(text, max_length=15):
+    """15文字を超えるテキストを文節で分割"""
+    if len(text) <= max_length:
+        return [text]
+
+    # 文節の区切り文字
+    breakpoints = ['、', '。', 'が', 'を', 'に', 'で', 'と', 'は', 'の', 'や', 'ね', 'よ', 'ぞ', 'か']
+
+    # 15文字以内で最適な区切り位置を探す
+    best_split = max_length
+    for i in range(min(max_length, len(text))):
+        if text[i] in breakpoints:
+            best_split = i + 1
+
+    # 最初の部分
+    first_part = text[:best_split].strip()
+    # 残りの部分（再帰的に分割）
+    remaining = text[best_split:].strip()
+
+    if remaining:
+        return [first_part] + split_long_text(remaining, max_length)
+    else:
+        return [first_part]
+
+
 def merge_with_audio_analysis(subtitles, audio_data):
-    """字幕と音声解析データをマージ"""
+    """字幕と音声解析データをマージ（20文字超は分割）"""
     analysis = audio_data['analysis_data']
     threshold = audio_data['threshold']
 
@@ -56,6 +81,7 @@ def merge_with_audio_analysis(subtitles, audio_data):
         start_time = subtitle['startTime']
         end_time = subtitle['endTime']
         mid_time = (start_time + end_time) / 2
+        text = subtitle['text']
 
         # 該当時間の音量レベルを検索
         volume_level = 0.5
@@ -70,11 +96,33 @@ def merge_with_audio_analysis(subtitles, audio_data):
         # スタイルを自動決定
         style = 'loud' if is_loud else 'normal'
 
-        enhanced_subtitles.append({
-            **subtitle,
-            'volumeLevel': volume_level,
-            'style': style
-        })
+        # テキストを分割（15文字超の場合）
+        text_parts = split_long_text(text, max_length=15)
+
+        if len(text_parts) == 1:
+            # 分割不要
+            enhanced_subtitles.append({
+                **subtitle,
+                'volumeLevel': volume_level,
+                'style': style
+            })
+        else:
+            # 時間を均等に分割して複数のテロップとして表示
+            duration = end_time - start_time
+            part_duration = duration / len(text_parts)
+
+            for i, part in enumerate(text_parts):
+                part_start = start_time + (i * part_duration)
+                part_end = part_start + part_duration
+
+                enhanced_subtitles.append({
+                    'id': f"{subtitle['id']}-{i+1}",
+                    'startTime': part_start,
+                    'endTime': part_end,
+                    'text': part,
+                    'volumeLevel': volume_level,
+                    'style': style
+                })
 
     return enhanced_subtitles
 

@@ -1,21 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { AbsoluteFill, Video, staticFile } from 'remotion';
 import { TelopSystem } from '../components/TelopSystem';
-import { defaultTelopConfig } from '../types/telop';
+import { youtubeTelopConfig } from '../types/youtube-style';
 import type { SubtitleEntry } from '../types/telop';
 import telopData from '../../video-telop-data.json';
+import { loadFonts } from '../fonts';
 
 /**
- * 実際の動画にテロップを適用
+ * 実際の動画にテロップを適用（YouTube風スタイル）
  */
 export const VideoWithTelop: React.FC = () => {
+  // フォントを読み込む
+  useEffect(() => {
+    loadFonts();
+  }, []);
+
   // JSONデータから字幕を読み込み
   const subtitles: SubtitleEntry[] = telopData.subtitles;
 
-  // カスタム設定（速報バナーのテキストを変更）
+  // YouTube風スタイル設定
   const config = {
-    ...defaultTelopConfig,
-    newsFlashText: '速報：AIが動画編集してる',
+    ...youtubeTelopConfig,
+    newsFlashText: '重要：AI自動編集',
+    showNewsFlash: false,  // 速報バナーを非表示
   };
 
   return (

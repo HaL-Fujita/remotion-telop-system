@@ -56,6 +56,9 @@ export const LoudSubtitle: React.FC<LoudSubtitleProps> = ({
     return offsets.join(', ');
   };
 
+  // 背景が透明の場合は背景ボックスを表示しない
+  const showBackground = style.backgroundOpacity > 0;
+
   return (
     <div
       style={{
@@ -70,14 +73,32 @@ export const LoudSubtitle: React.FC<LoudSubtitleProps> = ({
         zIndex: 10,
       }}
     >
-      <div
-        style={{
-          backgroundColor,
-          padding: `${style.verticalPadding}px ${style.horizontalPadding}px`,
-          borderRadius: '8px',
-          display: 'inline-block',
-        }}
-      >
+      {showBackground ? (
+        <div
+          style={{
+            backgroundColor,
+            padding: `${style.verticalPadding}px ${style.horizontalPadding}px`,
+            borderRadius: '8px',
+            display: 'inline-block',
+          }}
+        >
+          <span
+            style={{
+              fontFamily: style.fontFamily,
+              fontSize: `${style.fontSize}px`,
+              color: style.textColor,
+              fontWeight: style.fontWeight,
+              textShadow: createOutline(style.outlineColor, style.outlineWidth),
+              whiteSpace: 'nowrap',
+              textAlign: 'center',
+              display: 'inline-block',
+              lineHeight: 1.3,
+            }}
+          >
+            {entry.text}
+          </span>
+        </div>
+      ) : (
         <span
           style={{
             fontFamily: style.fontFamily,
@@ -85,7 +106,7 @@ export const LoudSubtitle: React.FC<LoudSubtitleProps> = ({
             color: style.textColor,
             fontWeight: style.fontWeight,
             textShadow: createOutline(style.outlineColor, style.outlineWidth),
-            whiteSpace: 'pre-wrap',
+            whiteSpace: 'nowrap',
             textAlign: 'center',
             display: 'inline-block',
             lineHeight: 1.3,
@@ -93,7 +114,7 @@ export const LoudSubtitle: React.FC<LoudSubtitleProps> = ({
         >
           {entry.text}
         </span>
-      </div>
+      )}
     </div>
   );
 };
