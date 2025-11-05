@@ -73,7 +73,7 @@ def analyze_audio_rms(video_path: str, interval: float = 0.1) -> list:
         '-'
     ]
 
-    result = subprocess.run(cmd, capture_output=True, text=True, stderr=subprocess.STDOUT)
+    result = subprocess.run(cmd, capture_output=True, text=True)
 
     # 出力からRMSデータを抽出
     rms_data = []
@@ -129,7 +129,7 @@ def analyze_audio_volumedetect(video_path: str, interval: float = 0.1) -> list:
         '-'
     ]
 
-    result = subprocess.run(cmd, capture_output=True, text=True, stderr=subprocess.STDOUT)
+    result = subprocess.run(cmd, capture_output=True, text=True)
 
     # mean_volumeを取得
     mean_volume = -20.0  # デフォルト値
