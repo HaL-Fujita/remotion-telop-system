@@ -55,11 +55,11 @@ def transcribe_with_whisper_api(audio_path: str, api_key: str, language: str = '
             model="whisper-1",
             file=audio_file,
             language=language,
-            response_format="verbose_json",
-            timestamp_granularity="word"
+            response_format="verbose_json"
         )
 
-    return transcript
+    # TranscriptionVerboseオブジェクトを辞書に変換
+    return transcript.model_dump()
 
 
 def transcribe_with_whisper_local(audio_path: str, model: str = 'base') -> Dict:

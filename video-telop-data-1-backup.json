@@ -1,0 +1,217 @@
+{
+  "videoPath": "public/video.mp4",
+  "subtitles": [
+    {
+      "id": 1,
+      "startTime": 0.0,
+      "endTime": 5.08,
+      "text": "江の島までウニラーメンを食べにきました",
+      "volumeLevel": 0.56,
+      "style": "normal"
+    },
+    {
+      "id": 2,
+      "startTime": 5.08,
+      "endTime": 10.84,
+      "text": "何日ですか今日は11月６日",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 3,
+      "startTime": 10.84,
+      "endTime": 15.780000000000001,
+      "text": "とりあえずこの動画の編集を",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 4,
+      "startTime": 15.780000000000001,
+      "endTime": 17.62,
+      "text": "機能を見せつけるためだけに",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 5,
+      "startTime": 17.62,
+      "endTime": 19.51,
+      "text": "江の島のウニラーメンが美味しいという",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 6,
+      "startTime": 19.51,
+      "endTime": 21.400000000000002,
+      "text": "ことで楽しい",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 7,
+      "startTime": 21.400000000000002,
+      "endTime": 22.96,
+      "text": "やっぱりウニラーメンもそうなんだけど",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 8,
+      "startTime": 22.96,
+      "endTime": 26.16,
+      "text": "こういうオープンしたらお店に",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 9,
+      "startTime": 26.16,
+      "endTime": 27.7,
+      "text": "ちゃんとそのLLMOだったら",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 10,
+      "startTime": 27.7,
+      "endTime": 29.8,
+      "text": "AIの編成だともっと伸びる",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 11,
+      "startTime": 29.8,
+      "endTime": 31.8,
+      "text": "これなんかウニラーメンって絶対にこれ",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 12,
+      "startTime": 31.8,
+      "endTime": 33.28,
+      "text": "すごい面白いし",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 13,
+      "startTime": 33.28,
+      "endTime": 34.78,
+      "text": "いっぱいウニあるし",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 14,
+      "startTime": 34.78,
+      "endTime": 36.78,
+      "text": "それが伝えられないってもったいない",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 15,
+      "startTime": 36.78,
+      "endTime": 37.78,
+      "text": "もったいない",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 16,
+      "startTime": 37.78,
+      "endTime": 41.28,
+      "text": "さあAIで編集ができるでしょうか",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 17,
+      "startTime": 41.28,
+      "endTime": 44.120000000000005,
+      "text": "じゃあラーメンが取ったらカットをしてね",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 18,
+      "startTime": 44.120000000000005,
+      "endTime": 46.96,
+      "text": "本来はこれを切って後から動画を繋げて",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 19,
+      "startTime": 46.96,
+      "endTime": 48.519999999999996,
+      "text": "シーンごとに分けてほしい",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 20,
+      "startTime": 48.519999999999996,
+      "endTime": 53.0,
+      "text": "だからラーメンの季節メインと",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 21,
+      "startTime": 53.0,
+      "endTime": 54.6,
+      "text": "ヒカルみたいな編集が出る",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 22,
+      "startTime": 54.6,
+      "endTime": 59.1,
+      "text": "プロンプトはヒカルの編集と同じ",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 23,
+      "startTime": 59.18,
+      "endTime": 60.34,
+      "text": "メインと同じ効果",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 24,
+      "startTime": 60.34,
+      "endTime": 61.92,
+      "text": "これできたらすごいぞ",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 25,
+      "startTime": 63.72,
+      "endTime": 64.8,
+      "text": "じゃあさてウニラーメンが",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 26,
+      "startTime": 64.8,
+      "endTime": 65.86,
+      "text": "くるまで待ってましょう",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    }
+  ],
+  "audioAnalysis": {
+    "threshold": 0.6368316500000001,
+    "percentile": 75.0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "videoPath": "public/video.mp4",
+  "subtitles": [
+    {
+      "id": 1,
+      "startTime": 0.0,
+      "endTime": 5.0,
+      "text": "動画の開始です",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 2,
+      "startTime": 5.0,
+      "endTime": 10.0,
+      "text": "美味しそうな料理ですね",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 3,
+      "startTime": 10.0,
+      "endTime": 15.0,
+      "text": "とても良い雰囲気です",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 4,
+      "startTime": 15.0,
+      "endTime": 20.0,
+      "text": "すごい美味しいです",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 5,
+      "startTime": 20.0,
+      "endTime": 25.0,
+      "text": "これは最高ですね",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    }
+  ],
+  "audioAnalysis": {
+    "threshold": 0.6,
+    "percentile": 75.0
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "videoPath": "/mnt/c/Users/bestg/Videos/test/784100276.788637.mp4",
+  "subtitles": [
+    {
+      "id": 1,
+      "startTime": 0.0,
+      "endTime": 3.0,
+      "text": "さあ、ウニラーレインは来ました",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 2,
+      "startTime": 3.0,
+      "endTime": 4.0,
+      "text": "めっちゃ美味しそう",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 3,
+      "startTime": 4.0,
+      "endTime": 6.0,
+      "text": "これよく良いのが出来たかな",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 4,
+      "startTime": 6.0,
+      "endTime": 7.0,
+      "text": "本当に",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 5,
+      "startTime": 7.0,
+      "endTime": 8.0,
+      "text": "タオンも美味しそう",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 6,
+      "startTime": 8.0,
+      "endTime": 10.0,
+      "text": "店員さんもありがとうございます",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 7,
+      "startTime": 10.0,
+      "endTime": 12.0,
+      "text": "ポッピングもあります",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 8,
+      "startTime": 12.0,
+      "endTime": 14.0,
+      "text": "いい感じのウニー",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 9,
+      "startTime": 14.0,
+      "endTime": 15.0,
+      "text": "食べたいの",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 10,
+      "startTime": 15.0,
+      "endTime": 16.0,
+      "text": "うわい",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 11,
+      "startTime": 16.0,
+      "endTime": 18.0,
+      "text": "ポッピングの別ウニー",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 12,
+      "startTime": 18.0,
+      "endTime": 19.0,
+      "text": "別ウニー",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 13,
+      "startTime": 19.0,
+      "endTime": 20.0,
+      "text": "パンポしてないの",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 14,
+      "startTime": 20.0,
+      "endTime": 22.0,
+      "text": "これ良いよね",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 15,
+      "startTime": 22.0,
+      "endTime": 23.0,
+      "text": "ウニラーレインもないの",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 16,
+      "startTime": 23.0,
+      "endTime": 25.0,
+      "text": "ウニラーレインだけを食べる",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 17,
+      "startTime": 25.0,
+      "endTime": 27.0,
+      "text": "ウニラーの食べりのしばに",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 18,
+      "startTime": 28.0,
+      "endTime": 30.0,
+      "text": "美味しい",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 19,
+      "startTime": 33.0,
+      "endTime": 35.0,
+      "text": "これを動画で繋げて",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 20,
+      "startTime": 35.0,
+      "endTime": 37.0,
+      "text": "先ほどもものと",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 21,
+      "startTime": 37.0,
+      "endTime": 39.0,
+      "text": "編集して欲しいです",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 22,
+      "startTime": 39.0,
+      "endTime": 40.0,
+      "text": "今日の視聴です",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 23,
+      "startTime": 40.0,
+      "endTime": 41.0,
+      "text": "いや",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 24,
+      "startTime": 41.0,
+      "endTime": 42.0,
+      "text": "編集で買ってねさ",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 25,
+      "startTime": 42.0,
+      "endTime": 44.0,
+      "text": "出るおしよ",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 26,
+      "startTime": 44.0,
+      "endTime": 45.0,
+      "text": "ウニラーレインもしょ",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 27,
+      "startTime": 45.0,
+      "endTime": 46.0,
+      "text": "うん",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 28,
+      "startTime": 46.0,
+      "endTime": 47.0,
+      "text": "出る出る出る",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 29,
+      "startTime": 47.0,
+      "endTime": 49.0,
+      "text": "出たら一番すごいですよ",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 30,
+      "startTime": 49.0,
+      "endTime": 51.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 31,
+      "startTime": 51.0,
+      "endTime": 52.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 32,
+      "startTime": 52.0,
+      "endTime": 53.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 33,
+      "startTime": 53.0,
+      "endTime": 54.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 34,
+      "startTime": 54.0,
+      "endTime": 55.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 35,
+      "startTime": 55.0,
+      "endTime": 56.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 36,
+      "startTime": 57.0,
+      "endTime": 58.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 37,
+      "startTime": 58.0,
+      "endTime": 59.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 38,
+      "startTime": 59.0,
+      "endTime": 60.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 39,
+      "startTime": 60.0,
+      "endTime": 60.5,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 40,
+      "startTime": 60.5,
+      "endTime": 61.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 41,
+      "startTime": 61.0,
+      "endTime": 62.0,
+      "text": "ウニラーさん",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 42,
+      "startTime": 62.0,
+      "endTime": 63.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 43,
+      "startTime": 63.0,
+      "endTime": 64.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 44,
+      "startTime": 64.0,
+      "endTime": 65.0,
+      "text": "ウニラーレイン",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 45,
+      "startTime": 66.0,
+      "endTime": 67.0,
+      "text": "ウニラーです",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 46,
+      "startTime": 70.0,
+      "endTime": 71.0,
+      "text": "では",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 47,
+      "startTime": 72.0,
+      "endTime": 72.98,
+      "text": "最後の",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    },
+    {
+      "id": 48,
+      "startTime": 72.98,
+      "endTime": 74.0,
+      "text": "砂 pan",
+      "volumeLevel": 0.5,
+      "style": "normal"
+    }
+  ],
+  "audioAnalysis": {
+    "threshold": 0.6,
+    "percentile": 75.0
+  }
+}
